@@ -49,7 +49,7 @@ h2 {
     align-items: flex-start;
     margin-bottom: 20px;
     padding: 50px;
-    height: 100px;
+    height: 100%;
     width: 75%;
     display: inline-block;
 }
@@ -81,10 +81,6 @@ h2 {
     float: right;
 
 }
-.quote {
-    padding:100px;
-
-}
 
 /*
 .center {
@@ -110,13 +106,27 @@ footer {
 .flex-container {
     display:flex;
     flex-wrap: wrap;
+    gap: 12px;
+    border-left: 5px solid black;
+    padding-left: 10px;
   /*  flex: 1 0 50%; */
 }
 
-.flex-item-first {
-    flex:100%
+.flex-item {
+    flex:45%;
+    border: 5px solid rgb(119, 190, 238);
 }
 
-.flex-item-item {
-    flex:50%
+.flex-item-first {
+    flex:100%;
+}
+
+.flex-image {
+    width:100%;
+    height:170px;
+}
+
+a {
+    text-decoration: underline;
+    color:black;
 }
