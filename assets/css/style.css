@@ -4,6 +4,13 @@
     margin: 0;
 }
 
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 700px) {
+    .flex-item {
+      flex: 100%;
+    }
+  }
+
 li {
     display: inline;
     padding: 20px;
@@ -114,6 +121,7 @@ footer {
 
 .flex-item {
     flex:45%;
+    position: relative;
     border: 5px solid rgb(119, 190, 238);
 }
 
@@ -123,10 +131,24 @@ footer {
 
 .flex-image {
     width:100%;
-    height:170px;
+    height:100%;
 }
 
 a {
     text-decoration: underline;
     color:black;
 }
+
+.picture-text {
+    position: absolute;
+    bottom: 20%;
+    padding: 20px;
+    background-color:rgb(119, 190, 238);
+}
+
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 800px) {
+    .flex-item {
+      flex: 100%;
+    }
+  }
