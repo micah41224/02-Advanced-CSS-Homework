@@ -4,12 +4,6 @@
     margin: 0;
 }
 
-/* Responsive layout - makes a one column-layout instead of a two-column layout */
-@media (max-width: 700px) {
-    .flex-item {
-      flex: 100%;
-    }
-  }
 
 li {
     display: inline;
@@ -23,6 +17,11 @@ h1 {
     background-color: rgb(117, 127, 134);
     padding: 10px;
 }
+
+h2 {
+    font-size: 30px;
+}
+
 
 #absolute-h1 {
     position: absolute;
@@ -38,9 +37,6 @@ h1 {
     padding: 20px;
   }
 
-h2 {
-    font-size: 30px;
-}
 
 .text-right {
     text-align: right;
@@ -125,7 +121,7 @@ footer {
     border: 5px solid rgb(119, 190, 238);
 }
 
-.flex-item-first {
+#flex-item-first {
     flex:100%;
 }
 
@@ -151,4 +147,5 @@ a {
     .flex-item {
       flex: 100%;
     }
+     
   }
