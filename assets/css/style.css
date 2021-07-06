@@ -4,7 +4,6 @@
     margin: 0;
 }
 
-
 li {
     display: inline;
     padding: 20px;
@@ -22,7 +21,6 @@ h2 {
     font-size: 30px;
 }
 
-
 #absolute-h1 {
     position: absolute;
     top: 10px;
@@ -36,7 +34,6 @@ h2 {
     background-color: rgb(117, 127, 134);
     padding: 20px;
   }
-
 
 .text-right {
     text-align: right;
