@@ -6,7 +6,8 @@ The main objective of this project is to create an aesthetically pleasing, fully
 
 ## Link to Completed Project
 
-
+https://micah41224.github.io/02-Advanced-CSS-Homework/
 
 ## Screenshots
 
+![Completed Application Screenshot](assets/images/Final_Screenshot.png)
