@@ -146,3 +146,10 @@ a {
     }
      
   }
+
+  @media (max-width: px) {
+    .flex-item {
+      flex: 100%;
+    }
+     
+  }
